@@ -1,0 +1,122 @@
+.StatisticsDiv {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    background-color: bisque;
+    font-size: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    animation: fadeAnimation ease-out 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+            @keyframes fadeAnimation {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+
+.StatisticsDiv-header{
+    display: flex;
+    font-size: 70px;
+    color: brown;
+    font-family: cursive;
+    justify-content: center;
+    font-weight: bolder;
+    text-shadow: 4px 4px 4px gray;
+    margin-top: 200px;
+    margin-bottom: 220px;
+}
+    
+    .Statistics-GraphDetail-hidden {
+        display: hidden;
+        flex-direction: row;
+        margin-top: 100px;
+    }
+
+    .Statistics-GraphDetail {
+        display: flex;
+        flex-direction: row;
+        margin-top: 100px;
+    }
+        .Statistics-Graph{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            height: 600px;
+            align-items: center;
+            justify-content: center;
+        }
+            .Statistics-Graph-pic{
+                display: flex;
+                width: 85%;
+                height: 100%;
+                border-width: 5px;
+                border-style: solid;
+                border-image: linear-gradient(to bottom,bisque,brown,bisque) 1 100%;
+            }
+            .Statistics-Graph p{
+                display: flex;
+                height: fit-content;
+                margin-top: 0;
+                font-size: 18px;
+                font-style: italic;
+                text-decoration: underline;
+            }
+
+        .Statistics-Detail{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+            .Statistics-Detail h3{
+                display: flex;
+                margin-top: 40px;
+                margin-bottom: 0;
+                padding-top: 40px;
+                justify-content: center;
+                height: fit-content;
+                font-family: cursive;
+                font-size: 30px;
+                text-decoration: underline;
+            }
+            .Statistics-Detail p{
+                display: flex;
+                padding-left: 30px;
+                padding-right: 30px;
+                padding-top: 90px;
+                padding-bottom: 40px;
+                height: fit-content;
+                width: initial;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 25px;
+                line-height: 50px;
+            }
+
+        .Statistics-Con-header{
+            display: flex;
+            justify-content: center;
+            font-size: 50px;
+            font-family: cursive;
+            text-decoration: underline;
+        }
+        .Statistics-Con-detail{
+            display: flex;
+            justify-content: center;
+            font-size: 30px;
+            margin-left: 45px;
+            margin-right: 45px;
+            font-family: cursive;
+            line-height: 60px;
+        }
+
+    
+    .FadeIn {animation: fadein 2s forwards;} 
+        @keyframes fadein {0%{background-color: bisque;} 100%{background-color: rgb(249, 236, 221);}}
+        .FadeOut {animation: fadeout 2s forwards;} 
+            @keyframes fadeout {0%{background-color: rgb(249, 236, 221);} 100%{background-color: bisque;}}

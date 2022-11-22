@@ -1,0 +1,82 @@
+.UserDiv {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    background-color: bisque;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+
+    animation: fadeAnimation ease-out 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+            @keyframes fadeAnimation {
+                0% {
+                    height: 100%;
+                    opacity: 0;
+                }
+                100% {
+                    height: 100%;
+                    opacity: 1;
+                }
+            }
+            
+    .UserHeader {
+        display: flex;
+        font-size: 120px;
+        font-family: cursive;
+        font-weight: bolder;
+        margin-bottom: 80px;
+        color: rgb(61, 182, 230);
+        text-decoration: underline overline double;
+    }
+
+    .UserHeader-lower {
+        display: flex;
+        font-size: 80px;
+        font-family: cursive;
+        font-weight: bolder;
+        margin-bottom: 120px;
+        color: rgb(45, 149, 52);
+        align-items: center;
+    }
+
+    .UserItem{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+        height: fit-content;
+        width: 1300px
+    }
+        .User {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            padding: 20px;
+            background-color: azure;
+            width: 80%;
+            border-top-left-radius: 180px;
+            border-bottom-left-radius: 100px;
+            padding-right: 100px;
+        }
+            .UserIcon {
+                width: 150px;
+                height: 130px;
+                color: rgb(37, 164, 23);
+                margin-top: 10px;
+            }
+            .User h4{
+                font-size: 45px;
+                font-family: cursive;
+                margin-top: 40px;
+                margin-bottom: 20px;
+            }
+            .User p{
+                font-size: 30px;
+                font-family: cursive;
+                margin-top: 20px;
+                margin-bottom: 30px;
+            }

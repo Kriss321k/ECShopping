@@ -1,0 +1,159 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  position: sticky;
+  top: 0;
+  background:-moz-linear-gradient(to left ,#282c34,rgb(92, 87, 87)) ;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  z-index: 10;
+  overflow: hidden;
+}
+
+  .TruckIcon {
+    height: 30px;
+  }
+  .BrandText {
+    display: flex;
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    align-items: flex-start;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50%;
+  } .BrandText:hover { color: rgb(255, 123, 0); text-shadow: 2px 2px gray;}
+
+  .Navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50%;
+  }
+    .Navbar-btn {
+      font-size: 20px;
+      font-weight: bolder;
+      color: white;
+      padding: 10px;
+      margin-left: 20px;
+      margin-right: 20px;
+      text-decoration: none;
+    } .Navbar-btn:hover{ color: rgb(255, 123, 0); }
+
+
+  .CartIconDiv{
+    display: flex;
+    margin-right: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: gray;
+  }
+    .CartIcon {
+      color: white;
+      font-size: 25px;
+      cursor: pointer;
+      transition: 0.1s;
+    }.CartIcon:hover {
+        color: rgb(255, 123, 0);
+        transform: scale(1.2);
+      }
+    .CartAmount {
+      display: flex;
+      position: absolute;
+      font-size: 15px;
+      color: white;
+      width: 20px;
+      height: 20px;
+      background-color: red;
+      border-radius: 50%;
+      align-items: center;
+      justify-content: center;
+      margin-left: 10px;
+    }
+
+.App-footer {
+  position: static;
+  bottom: 0;
+  background:-moz-linear-gradient(to right ,#282c34,rgb(92, 87, 87)) ;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 20px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.footer-textBold {
+  font-size: 22px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.footer-text {
+  font-size: 20px;
+  font-family: cursive;
+  margin-right: 40px;
+}
+  .footer-icon {
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 10px;
+  } .footer-icon:hover{
+    color: black;
+    font-size: larger;
+  }
+
+  .Cart {
+    position: fixed;
+    top: 10.5%;
+    right: 0;
+    animation: appear 1s forwards;
+  }
+    @keyframes appear {
+      0%{
+        width: 2px;
+      }
+      80%{
+        width: 500px;
+      }
+      100%{
+        width: 490px;
+      }
+    }
+  .HiddenCart {
+    position: fixed;
+    top: 10.5%;
+    right: 0;
+    width: 0;
+  }    
+    .HiddenEffect {
+      animation: appear-rev 1s forwards;
+    }
+      @keyframes appear-rev {
+        0%{
+          width: 490px;
+        }
+        20%{
+          width: 500px;
+        }
+        100%{
+          width: 0px;
+        }
+      }
+
+      .Hidden {
+        display: none;
+      }
