@@ -1,4 +1,5 @@
 # ECShopping is a prototype E-commerce website.
+## (Open with Mozilla Firefox for better color display)
 
 ## ECShopping consists the pages of
 
