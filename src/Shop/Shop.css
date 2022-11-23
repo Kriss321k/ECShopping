@@ -25,7 +25,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        width: 1400px;
+        width: inherit;
         height: 130px;
         background:-moz-radial-gradient(rgb(159, 222, 216),rgb(175, 217, 232),white);
         margin: 20px;
