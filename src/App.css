@@ -25,7 +25,7 @@
     font-family: cursive;
     font-size: 25px;
     font-weight: bolder;
-    color: white;
+    color: green;
     align-items: flex-start;
     margin-top: auto;
     margin-bottom: auto;
@@ -44,7 +44,7 @@
     .Navbar-btn {
       font-size: 20px;
       font-weight: bolder;
-      color: white;
+      color: green;
       padding: 10px;
       margin-left: 20px;
       margin-right: 20px;
@@ -92,7 +92,7 @@
   align-items: center;
   justify-content: flex-end;
   font-size: 20px;
-  color: white;
+  color: green;
   padding-left: 20px;
   padding-right: 20px;
 }
