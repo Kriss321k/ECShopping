@@ -10,5 +10,6 @@
 * Cart
 * User page (Fetch API username)
 * Statistics page
+* Settlement page
 
 ![alt text](https://github.com/Kriss321k/portfolio/blob/main/public/ECShoppingStructure.png)
